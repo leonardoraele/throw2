@@ -5,6 +5,9 @@ If you are familiar with the original project, see [Fork Changes](#fork-changes)
 
 # throw2
 
+[![](https://img.shields.io/npm/v/throw2)](https://www.npmjs.com/package/throw2)
+[![MIT](https://img.shields.io/github/license/leonardoraele/throw2)](https://github.com/leonardoraele/throw2/blob/master/LICENSE.md)
+
 You can't use `throw` statement in expressions in JavaScript:
 
 ```js
