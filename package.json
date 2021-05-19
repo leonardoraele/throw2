@@ -1,22 +1,34 @@
 {
-  "name": "throw",
-  "version": "1.1.1",
-  "description": "A simple utility that helps throw exceptions.",
-  "author": "Anton Rudeshko <anton@rudeshko.com> (http://www.rudeshko.com)",
-  "homepage": "https://github.com/anton-rudeshko/node-throw",
+  "name": "throw2",
+  "version": "0.1.0",
+  "description": "Sugar syntax to throw exceptions as an expression.",
+  "author": "Leonardo Raele <leonardoraele@gmail.com>",
   "main": "index.js",
-  "types": "./throw.d.ts",
+  "types": "./index.d.ts",
   "keywords": [
     "throw",
+    "throw2",
+    "expression",
+    "exception",
     "error",
-    "exception"
+    "sugar",
+    "syntax"
   ],
+  "scripts": {
+    "test": "npx mocha .test.js",
+    "coverage": "nyc npm test"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:anton-rudeshko/node-throw.git"
+    "url": "git@github.com:leonardoraele/throw2.git"
   },
   "bugs": {
-    "url": "https://github.com/anton-rudeshko/node-throw/issues"
+    "url": "https://github.com/leonardoraele/throw2/labels/bug"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  }
 }
