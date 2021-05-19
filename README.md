@@ -82,4 +82,4 @@ Also, `printf`-like message formatting is not supported by `throw2`. Use [templa
 
 ## License
 
-MIT
+MIT (see [LICENSE.md](/LICENSE.md))
